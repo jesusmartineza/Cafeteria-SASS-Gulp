@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -359,4 +360,29 @@ h2 {
 
 h3 {
   font-size: 3.2rem;
+}
+
+/*
+* Utilidades
+*/
+.text-center {
+  text-align: center;
+}
+
+.bg-primario {
+  background-color: #e8505b;
+}
+
+/*
+* Header
+*/
+.header {
+  color: #000000;
+}
+
+/*
+* Navegación
+*/
+.navegacion {
+  color: #000000;
 }
