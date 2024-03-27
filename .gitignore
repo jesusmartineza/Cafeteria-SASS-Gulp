@@ -1,4 +1,5 @@
 node_modules/
 src/scss/*
-gulpfile.js
+src
+gulpfile.mjs
 *.json
