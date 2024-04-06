@@ -3,3 +3,4 @@ src/scss/*
 src
 gulpfile.mjs
 *.json
+base.html

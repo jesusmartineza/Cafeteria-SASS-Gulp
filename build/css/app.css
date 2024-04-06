@@ -341,6 +341,7 @@ p {
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 img {
@@ -453,8 +454,76 @@ h3 {
   }
 }
 
-.header-inicio {
+.notavif.notwebp .header-inicio {
   background-image: url(../img/header_inicio.jpg);
+}
+
+.webp .header-inicio {
+  background-image: url(../img/header_inicio.webp);
+}
+
+.avif .header-inicio {
+  background-image: url(../img/header_inicio.avif);
+}
+
+.notavif.notwebp .header-nosotros {
+  background-image: url(../img/header_nosotros.jpg);
+}
+
+.webp .header-nosotros {
+  background-image: url(../img/header_nosotros.webp);
+}
+
+.avif .header-nosotros {
+  background-image: url(../img/header_nosotros.avif);
+}
+
+.notavif.notwebp .header-proceso {
+  background-image: url(../img/header_proceso.jpg);
+}
+
+.webp .header-proceso {
+  background-image: url(../img/header_proceso.webp);
+}
+
+.avif .header-proceso {
+  background-image: url(../img/header_proceso.avif);
+}
+
+.notavif.notwebp .header-menu {
+  background-image: url(../img/header_menu.jpg);
+}
+
+.webp .header-menu {
+  background-image: url(../img/header_menu.webp);
+}
+
+.avif .header-menu {
+  background-image: url(../img/header_menu.avif);
+}
+
+.notavif.notwebp .header-galeria {
+  background-image: url(../img/header_galeria.jpg);
+}
+
+.webp .header-galeria {
+  background-image: url(../img/header_galeria.webp);
+}
+
+.avif .header-galeria {
+  background-image: url(../img/header_galeria.avif);
+}
+
+.notavif.notwebp .header-contacto {
+  background-image: url(../img/header_contacto.jpg);
+}
+
+.webp .header-contacto {
+  background-image: url(../img/header_contacto.webp);
+}
+
+.avif .header-contacto {
+  background-image: url(../img/header_contacto.avif);
 }
 
 /*
@@ -514,6 +583,47 @@ h3 {
     width: 20rem;
     margin: 0;
   }
+}
+
+.footer {
+  background-color: #5e311e;
+}
+.footer .contenido-footer {
+  padding: 5rem;
+}
+@media (min-width: 768px) {
+  .footer .contenido-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+.footer .copyright {
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+  color: #ffffff;
+}
+
+.footer-box {
+  font-family: "Bona Nova", serif;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+@media (min-width: 768px) {
+  .footer-box {
+    margin-bottom: 0;
+  }
+}
+.footer-box h3 {
+  font-family: "Bona Nova", serif;
+  margin: 0 0 1rem 0;
+  font-size: 2.4rem;
+  color: #c39c63;
+}
+.footer-box p, .footer-box a {
+  font-size: 2rem;
+  margin: 0;
 }
 
 .contenido-principal {
